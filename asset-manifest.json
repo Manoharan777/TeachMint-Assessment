@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TeachMint-Assessment/static/css/main.fae09a43.css",
+    "main.js": "/TeachMint-Assessment/static/js/main.ff495d63.js",
+    "static/js/787.7481c851.chunk.js": "/TeachMint-Assessment/static/js/787.7481c851.chunk.js",
+    "index.html": "/TeachMint-Assessment/index.html",
+    "main.fae09a43.css.map": "/TeachMint-Assessment/static/css/main.fae09a43.css.map",
+    "main.ff495d63.js.map": "/TeachMint-Assessment/static/js/main.ff495d63.js.map",
+    "787.7481c851.chunk.js.map": "/TeachMint-Assessment/static/js/787.7481c851.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fae09a43.css",
+    "static/js/main.ff495d63.js"
+  ]
+}
