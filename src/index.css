@@ -1,13 +1,90 @@
-body {
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  } 
+
+  body{
+    background-color: #ffffff;
+    color: #111;
+    }
+    .container {
+      background: white;
+      border-radius: 5px;
+      max-width: 1329px;
+      width: 522px;
+      margin: auto;
+      padding: 0px 10px;
+    } 
+
+    section {
+      min-height: 100vh; 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      }
+      h1{
+      font-size: 50px;
+      line-height: 60px;
+      text-align: center;
+      margin-bottom: 40px;
+      } I
+      .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      }
+      .card {
+        width: 100%;
+        background: rgb(46, 207, 252);
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        transition: .3s;
+        border: 2px solid transparent;
+        justify-content: space-between;
+        }
+        .left-content,
+.right-content {
+  width: 100%; /* Adjust as needed */
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.left-content {
+  text-align: left;
 }
+
+.right-content {
+  text-align: right;
+}
+        .card:hover{
+        border-color: #1d39c4;
+        }
+
+        .btn{
+          border: none;
+          outline: none;
+          background: #1d39c4;
+          color: #fff;
+          border-radius: 10px;
+          max-width: 120px;
+          width: 100%;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 20px;
+          cursor: pointer;
+          transition: .3s;
+          border: 1px solid #1d39c4 ;
+        }
+
+        @media(max-width: 600px){ 
+
+          .card{
+          flex: 0 0 100px;
+          max-width: 100%
+          }
+        }
